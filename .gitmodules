@@ -1,0 +1,4 @@
+[submodule "KAMP"]
+	path = KAMP
+	url = git@github.com:kyleisah/Klipper-Adaptive-Meshing-Purging.git
+	branch = main
