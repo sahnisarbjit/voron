@@ -2,3 +2,7 @@
 	path = KAMP
 	url = git@github.com:kyleisah/Klipper-Adaptive-Meshing-Purging.git
 	branch = main
+[submodule "klipper_z_calibration"]
+	path = klipper_z_calibration
+	url = https://github.com/protoloft/klipper_z_calibration.git
+	branch = master
