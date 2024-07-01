@@ -1,7 +1,9 @@
 #!/bin/bash
 
-git submodule init
-git submodule update
+CONFIG_DIR="${HOME}/printer_data/config"
 
-./klipper_z_calibration/install.sh
+git clone --recurse-submodules -j8 git@github.com:sahnisarbjit/voron.git "$CONFIG_DIR/voron"
 
+$CONFIG_DIR/klipper_z_calibration/install.sh
+
+ln -s "$CONFIG_DIR/voron/printer.cfg" "$CONFIG_DIR/printer.cfg"
