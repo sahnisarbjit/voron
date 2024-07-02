@@ -1,2 +1,4 @@
 .moonraker.conf.bkp
 moonraker.conf
+printer-*.cfg
+ShakeTune_results
